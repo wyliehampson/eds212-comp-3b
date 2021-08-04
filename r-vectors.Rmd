@@ -1,0 +1,67 @@
+---
+title: "Vectors in R"
+author: "Wylie Hampson"
+date: "8/4/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+# Create a vector!
+vec_a <- c(4, 5)
+
+```
+## Another code chunk
+
+```{r, echo = FALSE}
+vec_b <- c(-3, 10)
+
+```
+
+## Vector addition
+
+```{r}
+# Create a new vector by adding vector a and b
+vec_c <- vec_a + vec_b
+
+```
+
+## Vector subtraction
+
+```{r}
+# vec_d is vec_b - vec_a
+
+vec_d <- vec_b - vec_a
+
+```
+
+## Vector scalar multiplyer
+
+```{r}
+# what is vec_e if it is 4 * vec_b
+
+vec_e <- 4 * vec_b
+
+```
+
+## If we use asterisk:
+
+```{r}
+vec_a * vec_b
+
+```
+
+## Dot product is syntax is %*%
+
+```{r}
+vec_a %*% vec_b
+
+```
+
+
+
+
+
